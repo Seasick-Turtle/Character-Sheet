@@ -1,0 +1,15 @@
+body, .main {
+	padding: 0;
+}
+
+.main {
+	list-style: none;
+	display: inline-flex;
+	width: 100%;
+	text-align: center;
+}
+
+ul li {
+	word-spacing: 2em;
+	width: 100%;
+}
