@@ -1,8 +1,8 @@
-body, .main {
+body, .nav{
 	padding: 0;
 }
 
-.main {
+.nav {
 	list-style: none;
 	display: inline-flex;
 	width: 100%;
@@ -12,4 +12,8 @@ body, .main {
 ul li {
 	word-spacing: 2em;
 	width: 100%;
+}
+
+ul li:active {
+	text-decoration: underline;
 }
