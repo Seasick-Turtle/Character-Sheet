@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom';
 import Nav from './Nav';
 import Home from './Home';
-import Character from './Character';
+import Characters from './Characters';
 import Journal from './Journal';
 import '../index.css';
 
@@ -18,7 +18,7 @@ export default class App extends Component {
           <Nav />
           <Switch>
             <Route exact path='/' component={Home}/>
-            <Route path='/character' component={Character}/>
+            <Route path='/characters' component={Characters}/>
             <Route path='/journal' component={Journal}/>
             <Route render={function () {
               return <p>Not Found</p>
