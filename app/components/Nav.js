@@ -13,7 +13,7 @@ export default function Nav () {
         </li>
         <li>
           <NavLink
-            activeClassName='active'
+            exact activeClassName='active'
             to='/characters'>
             Characters
           </NavLink>

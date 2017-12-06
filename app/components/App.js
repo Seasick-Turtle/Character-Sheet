@@ -7,6 +7,7 @@ import {
 import Nav from './Nav';
 import Home from './Home';
 import Characters from './Characters';
+import Character from './Character';
 import Journal from './Journal';
 import '../index.css';
 
@@ -18,7 +19,8 @@ export default class App extends Component {
           <Nav />
           <Switch>
             <Route exact path='/' component={Home}/>
-            <Route path='/characters' component={Characters}/>
+            <Route exact path='/characters' component={Characters}/>
+            <Route path='/characters/character' component={Character} />
             <Route path='/journal' component={Journal}/>
             <Route render={function () {
               return <p>Not Found</p>
