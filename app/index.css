@@ -1,21 +1,33 @@
+body {
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+}
+
 body, .nav{
 	padding: 0;
 }
 
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+.container {
+	margin: 0 auto;
+}
+
 .nav {
-	list-style: none;
 	display: inline-flex;
 	width: 100%;
 	text-align: center;
 	justify-content: space-evenly;
+	color: white;
 }
 
-ul li {
-	width: 100%;
-}
-
-ul li:active {
-	text-decoration: underline;
+.active {
+	font-weight: bold;
 }
 
 #char-list {
@@ -26,8 +38,8 @@ ul li:active {
 }
 
 .portrait {
-	width: 10rem;
-	height: 10rem;
+	width: 17vh;
+	height: 17vh;
 	border: 1px solid black;
 	display: flex;
 }

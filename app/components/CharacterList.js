@@ -9,14 +9,9 @@ export default class CharacterList extends Component {
         Character List
         <div id='char-list'>
           <NavLink to='/characters/character'>
-            <Character>Character</Character>
+            <Character />
           </NavLink>
-          <NavLink to='/characters/character'>
-            <Character>Character2</Character>
-          </NavLink>
-          <NavLink to='/characters/character'>
-            <Character>Character3</Character>
-          </NavLink>
+
         </div>
       </div>
     )
